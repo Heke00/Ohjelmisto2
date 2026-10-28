@@ -1,0 +1,78 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #698f8b;
+}
+
+/* Style your header container */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f3f146;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.487);
+}
+
+header h3 {
+    margin-left: -420px;
+}
+
+/* Limit the logo size */
+header img {
+    height: 50px; 
+}
+
+
+/* Style the navigation list horizontally */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation links */
+nav a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color:#605b76
+    
+}
+
+/* Style the main heading */
+h1 {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+.content {
+display: flex;
+align-items: flex-start;
+gap: 20px;
+margin-top: 10px;
+}
+
+.content p {
+color: white;
+margin-top: 0;
+flex: 1;
+}
+
+.content img {
+    max-width: 400px;
+}
