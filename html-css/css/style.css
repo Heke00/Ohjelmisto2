@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #698f8b;
+    background-color: #3a4f4d;
 }
 
 /* Style your header container */
@@ -53,8 +53,12 @@ nav a:hover {
 /* Style the main heading */
 h1 {
     color: #ffffff;
-    margin-top: 30px;
+    margin-top: 100px;
+    text-align: center;
 }
+
+h2 {text-align: center;
+color: #ffffff;}
 
 h3 {
     color: rgb(0, 0, 0);
@@ -75,4 +79,53 @@ flex: 1;
 
 .content img {
     max-width: 400px;
+}
+
+.products {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    background-color: rgba(6, 6, 6, 0.306);
+    width: 800px;
+    border-radius: 10px;
+    padding: 11px;
+    margin: 10px;
+}
+
+.products img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.products p {
+    color: white;
+    margin-top: 0;
+    flex: 1;
+}
+.products h3 {
+    color: white;
+    margin-top: 0;
+    flex: 1;
+}
+
+
+
+.contact    {
+    
+    text-align: center;
+    color: #fdfdfd;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+    display: block;
 }
