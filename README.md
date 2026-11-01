@@ -5,3 +5,5 @@ Ohjelmisto 2 repository. Web kehitys
 28.10.2026 Lisäsin yhden productin Products välilehteen
 
 30.10 Tein web sivuston valmiiksi
+
+1.11.2026 Tein javasript tehtävät
