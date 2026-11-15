@@ -1,0 +1,5 @@
+GET http://127.0.0.1:5000/viikon-lottorivi
+###
+GET http://127.0.0.1:3000/sum?number1=10&number2=2
+###
+GET https://metropolia.fi

@@ -1,0 +1,14 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    max-width: 400px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card figure {
+    margin: 0;
+}

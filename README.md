@@ -9,3 +9,5 @@ Ohjelmisto 2 repository. Web kehitys
 1.11.2026 Tein 2 javasript tehtävät
 
 8.11 JS moduuli 3 tehtävät tehty
+
+15.11 Js moduuli 4 tehty jotenkuten - palaan tähän vielä

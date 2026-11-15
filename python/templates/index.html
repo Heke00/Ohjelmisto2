@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Moi</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Tekstiä</h1>
+
+    <img src="{{ url_for('serve_image', filename='image.jpg') }}"
+         alt="Oma kuva">
+
+    <div class="buttons">
+        <button onclick="pressButton()">Press</button>
+    </div>
+
+</body>
+</html>

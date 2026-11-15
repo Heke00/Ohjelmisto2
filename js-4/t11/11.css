@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+article img {
+    width: 100%;
+}
+
+dialog {
+    width: 80%;
+    max-width: 800px;
+    border: none;
+    padding: 20px;
+}
+
+dialog img {
+    width: 100%;
+}
+
+dialog span {
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    font-size: 25px;
+}
